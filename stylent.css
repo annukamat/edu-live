@@ -1,64 +1,78 @@
 body {
-    font-family: monospace;
-    text-align: center;
+  font-family: monospace;
+  text-align: center;
+  background-color: #192523;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
 #main {
-	display: inline-block;
-    width: 1280px;
-    margin: auto;
+  display: inline-block;
+  width: 1280px;
+  margin: auto;
 }
 
+/* .output_canvas {
+  width: 1280px;
+  height: 720px;
+} */
+
 #draw_area {
-    display: flex;
+  display: flex;
 }
 
 button {
-    background-color: white;
-    font-family: monospace;
-    border: solid 1px;
+  background-color: white;
+  font-family: monospace;
+  border: solid 1px;
 }
-button:active{
-    background-color: black;
-    color: white;
+button:active {
+  background-color: black;
+  color: white;
 }
 
 #side {
-    display: grid;
-    grid-template-columns: 100px;
-    margin: 2%;
-    gap: 4%;
-    grid-auto-rows: 100px;
+  display: grid;
+  grid-template-columns: 100px;
+  margin: 2%;
+  gap: 4%;
+  grid-auto-rows: 100px;
 }
 
 canvas {
-    flex: none;
-    border: solid 1px;
-    margin: auto;
-    transform: scaleX(-1);
+  flex: none;
+  border: solid 1px;
+  margin: auto;
+  transform: scaleX(-1);
 }
 
 video {
-    display: none;
+  display: none;
 }
 
 h1 {
-    text-align: start;
-    margin: 3%;
+  text-align: start;
+  margin: 3%;
 }
 
 h2 {
-    text-align: start;
-    margin: 3%;
-    margin-bottom: 1%;
+  text-align: start;
+  margin: 3%;
+  margin-bottom: 1%;
 }
 
 ul {
-    text-align: start;
+  text-align: start;
 }
 
 #download_button {
-    display: block;
-    margin: 2%;
-    display: none;
+  display: block;
+  margin: 2%;
+  display: none;
+}
+
+#video-cam a {
+  text-decoration: none;
+  color: #000;
 }
